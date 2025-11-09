@@ -39,9 +39,3 @@ I'm a Full Stack Developer passionate about building innovative solutions.
 </div>
 
 <br><br>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=NickBossz&color=blueviolet&style=flat-square" alt="Profile views" />
-</div>
