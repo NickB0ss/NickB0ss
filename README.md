@@ -2,7 +2,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+NickBossz+%F0%9F%91%8B;Full+Stack+Developer" alt="Typing SVG" />
 </div>
 
-<table width="100%">
+<br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td width="50%" valign="top">
 
@@ -25,13 +27,6 @@ const nickBossz = {
 - 🌱 Cloud architecture
 - 👯 Open to collaborate
 
-</td>
-<td width="50%" valign="top">
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif" width="100%">
-</div>
-
 ## 🛠️ Tech Stack
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -46,10 +41,15 @@ const nickBossz = {
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
+<td width="50%" valign="top" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="90%">
+
+</td>
 </tr>
 </table>
 
----
+<br>
 
 <div align="center">
 
