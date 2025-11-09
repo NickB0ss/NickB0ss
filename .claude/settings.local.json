@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate README with cleaner layout and new GIF\n\n- Replace old GIF with new animated coding GIF\n- Remove nested divs and fix table styling (border=\"0\")\n- Move Tech Stack to left column for better layout\n- Simplify overall structure for cleaner appearance\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
