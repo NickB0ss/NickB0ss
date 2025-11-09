@@ -1,6 +1,6 @@
 <div align="center">
 
-### Hello, I'm **NickBossz**! 👋
+### Hello, I'm **Nicolas**! 👋
 
 I'm a Full Stack Developer passionate about building innovative solutions.
 
