@@ -15,6 +15,9 @@ I'm a Full Stack Developer passionate about building innovative solutions.
 - 👯 Open to collaborate on interesting projects
 - ⚡ Fun fact: I debug with console.log() and I'm not ashamed!
 
+<br><br>
+<br><br>
+
 ### 🛠️ Technologies & Tools
 <div style="display: inline_block">
   <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
