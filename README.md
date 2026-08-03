@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/senku_gif2.gif" width="220" alt="Senku Ishigami" />
+<img src="./assets/senku_gif2.gif" width="450" alt="Senku Ishigami" />
 
 # Nicolas Mateus
 
