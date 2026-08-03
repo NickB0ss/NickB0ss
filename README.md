@@ -1,38 +1,79 @@
 <div align="center">
 
-### Hello, I'm **Nicolas**! 👋
+<img src="./assets/senku-science.gif" width="220" alt="Senku Ishigami" />
 
-I'm a Full Stack Developer passionate about building innovative solutions.
+# Nicolas Mateus
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="400px" align="right" />
+**Full-stack developer from Brazil.**<br />
+I build computer-vision tooling, AI agent infrastructure and product web apps.
 
 </div>
 
+---
+
 ### About me
-- 💻 Building full-stack applications with modern technologies
-- 🌱 Currently exploring cloud architecture and microservices
-- 💡 Main languages are [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [**TypeScript**](https://www.typescriptlang.org), [**Python**](https://python.org) and [**Java**](https://www.java.com)
-- 👯 Open to collaborate on interesting projects
-- ⚡ Fun fact: I debug with console.log() and I'm not ashamed!
 
-<br><br>
-<br><br>
+- 🔬 Currently building **MangaLens** — you give it a manga/anime character and describe in plain language what you want cut out, and it hands back each part as its own layer. Runs entirely on your machine, no cloud.
+- 🛰️ Before that, **[AgentScope](https://github.com/NickB0ss/agentscope)** — an observability platform for AI agents, tracking prompts, responses, execution flow, tool calls, token usage, cost and errors.
+- 📈 The rest tends to land in **finance** (portfolio trackers for the Brazilian stock market) or **product web apps**.
+- 🧰 Day to day that means **Python** for anything with a model in it, **TypeScript + React** on the front, **Node/Bun** behind it, **PostgreSQL / Supabase / MongoDB** underneath.
+- 🦈 Built a *Sharks from Space* entry for the 2025 Space Apps Challenge.
+- 📫 Reach me at **nicolasmateusdecastrosilva@gmail.com**
 
-### 🛠️ Technologies & Tools
-<div style="display: inline_block">
-  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+### Things I've built
+
+**MangaLens** *(main project — private for now)* — Cutting a character into animatable layers is hours of manual rotoscoping in Photoshop. MangaLens does it from a sentence: *"separate the hair into strands and the accessory on the neck"* comes back as one mask per part, ready to import into After Effects, Premiere or DaVinci.
+
+Under the hood it's a pipeline of open-vocabulary detection (Grounding DINO) into pixel-level segmentation (SAM), with alpha matting to clean up the edges and Canny edge detection to split a single mask into instances — individual hair strands, for example. Everything runs locally, including hardware profiles so it works on a 4GB GPU and not just a 12GB one.
+`Python` `FastAPI` `PyTorch` `ONNX Runtime` `Transformers` `OpenCV`
+
+**[AgentScope](https://github.com/NickB0ss/agentscope)** — Observability for AI agents. Bun monorepo with web app, API, worker, shared contracts, database package, telemetry helpers and a Node.js SDK, running on Postgres behind Docker Compose.
+`Bun` `TypeScript` `PostgreSQL` `Docker`
+
+**[InvestHub](https://github.com/NickB0ss/investhub)** · [live](https://investhub-navigator.vercel.app) — Portfolio tracker for Brazilian stocks. Average price, profit/loss and ROI computed per position, real-time market data, operation history and JWT auth on a serverless API.
+`React` `TypeScript` `Vite` `TanStack Query` `Express` `MongoDB`
+
+**[ecommerce-hair](https://github.com/NickB0ss/ecommerce-hair)** · [live](https://ecommerce-hair-frontend.vercel.app) — Decoupled e-commerce monorepo: an Express + Supabase REST API, a React storefront, and a separate React 19 admin panel for products, categories and users.
+`React` `TypeScript` `Express` `Supabase` `Tailwind`
+
+**[nutri4kids](https://github.com/NickB0ss/nutri4kids-one-landing-page)** · [live](https://nutri4kids-one-landing-page.vercel.app) — Single-page landing built for a nutrition brand.
+`TypeScript` `React` `Tailwind`
+
+A few other things live in private repos: an AI sales assistant and a video summarizer, both Python.
+
+### Tech I reach for
+
+<div>
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+  <img align="center" alt="PyTorch" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg">
+  <img align="center" alt="FastAPI" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg">
+  <img align="center" alt="OpenCV" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg">
+  <img align="center" alt="TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
   <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Vue" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg">
-  <img align="center" alt="Angular" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
   <img align="center" alt="Node.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
-  <img align="center" alt="MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+  <img align="center" alt="Bun" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bun/bun-original.svg">
   <img align="center" alt="PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
+  <img align="center" alt="Supabase" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg">
+  <img align="center" alt="MongoDB" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
+  <img align="center" alt="Tailwind CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
   <img align="center" alt="Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
 </div>
 
-<br><br>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=NickB0ss&layout=compact&langs_count=8&hide_title=true&hide_border=true&card_width=340&bg_color=00000000&text_color=e6edf3" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=NickB0ss&layout=compact&langs_count=8&hide_title=true&hide_border=true&card_width=340&bg_color=00000000&text_color=1f2328" alt="Most used languages" />
+</picture>
+
+---
+
+<div align="center">
+
+*"Get excited."* — **Senku Ishigami**
+
+<sub>Senku doesn't wait for the world to be ready — he builds the thing from scratch until it exists. Same idea here.</sub>
+
+</div>
