@@ -1,15 +1,9 @@
-<div align="center">
-
-<img src="./assets/senku_gif2.gif" width="450" alt="Senku Ishigami" />
+<img align="right" width="320" src="./assets/senku_gif2.gif" alt="Senku Ishigami" />
 
 # Nicolas Mateus
 
 **Full-stack developer from Brazil.**<br />
 I build computer-vision tooling, AI agent infrastructure and product web apps.
-
-</div>
-
----
 
 ### About me
 
@@ -19,6 +13,10 @@ I build computer-vision tooling, AI agent infrastructure and product web apps.
 - 🧰 Day to day that means **Python** for anything with a model in it, **TypeScript + React** on the front, **Node/Bun** behind it, **PostgreSQL / Supabase / MongoDB** underneath.
 - 🦈 Built a *Sharks from Space* entry for the 2025 Space Apps Challenge.
 - 📫 Reach me at **nicolasmateusdecastrosilva@gmail.com**
+
+<br clear="right" />
+
+---
 
 ### Things I've built
 
@@ -70,10 +68,10 @@ A few other things live in private repos: an AI sales assistant and a video summ
 
 ---
 
-<div align="center">
+<img align="left" width="200" src="./assets/senku_gif2.gif" alt="Senku Ishigami" />
 
 *"Get excited."* — **Senku Ishigami**
 
 <sub>Senku doesn't wait for the world to be ready — he builds the thing from scratch until it exists. Same idea here.</sub>
 
-</div>
+<br clear="left" />
