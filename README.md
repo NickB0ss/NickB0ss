@@ -77,8 +77,6 @@ A few other things live in private repos: an AI sales assistant and a video summ
 
 ---
 
-<img align="left" width="200" src="./assets/senku_gif2.gif" alt="Senku Ishigami" />
-
 *"Get excited."* — **Senku Ishigami**
 
 <sub>Senku doesn't wait for the world to be ready — he builds the thing from scratch until it exists. Same idea here.</sub>
