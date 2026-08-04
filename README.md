@@ -1,4 +1,6 @@
-<img align="right" width="320" src="./assets/senku_gif2.gif" alt="Senku Ishigami" />
+<table>
+<tr>
+<td valign="top">
 
 # Nicolas Mateus
 
@@ -14,7 +16,14 @@ I build computer-vision tooling, AI agent infrastructure and product web apps.
 - 🦈 Built a *Sharks from Space* entry for the 2025 Space Apps Challenge.
 - 📫 Reach me at **nicolasmateusdecastrosilva@gmail.com**
 
-<br clear="right" />
+</td>
+<td width="340" valign="top">
+
+<img width="320" src="./assets/senku_gif2.gif" alt="Senku Ishigami" />
+
+</td>
+</tr>
+</table>
 
 ---
 
